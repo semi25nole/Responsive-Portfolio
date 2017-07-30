@@ -1,4 +1,4 @@
-#header {
+header {
 	background-color: white;
 	width: 100%;
 	height: 80px;
@@ -7,7 +7,7 @@
 
 }
 
-#footer {
+footer {
 	background-color: #666666;
 	width: 100%;
 	height: 80px;
@@ -20,7 +20,7 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	clear: both;
 	position: relative;
-	top: 43px;
+	top: 10px;
 
 }
 
@@ -41,6 +41,7 @@
 }
 
 /*Portfolio Page Only*/
+
 .main2 {
 	background-color: white;
 	padding: 20px;
@@ -53,6 +54,7 @@
 	margin-left: 8%;
 	position: relative;
 	float: left;
+	top: 15px;
 
 }
 
@@ -68,7 +70,7 @@
 	position: relative;
 }
 
-.aside2 {
+aside {
 	float: right;
 	clear: both;
 	width: 300px;
@@ -78,6 +80,7 @@
 	margin: 2.0%;
 	margin-right: 23%;
 	position: relative;
+	top: 15px;
 }
 
 .toprow {
@@ -191,11 +194,14 @@ p {
 }
 
 /*Profile Links*/
+
 .icon1 {
 	margin-top: 100px;
 	position: absolute;
 	margin-left: 40px;
 	clear: both;
+	height: 50px;
+	width: 50px;
 }
 
 .icon2 {
@@ -203,6 +209,8 @@ p {
 	margin-top: 100px;
 	position: absolute;
 	clear: both;
+	height: 50px;
+	width: 50px;
 }
 
 .icon3 {
@@ -210,6 +218,8 @@ p {
 	margin-top: 100px;
 	margin-left: 210px;
 	clear: both;
+	height: 50px;
+	width: 50px;
 }
 
 /*buttons*/
@@ -276,6 +286,8 @@ ul {
 	clear: both;
 	position:relative;
 	top: 130px;
+	height: 205px;
+	width: 205px;
 }
 
 .image2 {
@@ -284,6 +296,8 @@ ul {
 	position: relative;
 	left: 240px;
 	bottom: 75px;
+	height: 205px;
+	width: 205px;
 }
 
 .image3 {
@@ -292,6 +306,8 @@ ul {
 	position: relative;
 	left: 450px;
 	bottom: 280px;
+	height: 205px;
+	width: 205px;
 }
 
 .image4 {
@@ -299,6 +315,8 @@ ul {
 	clear: both;
 	position: relative;
 	bottom: 230px;
+	height: 205px;
+	width: 205px;
 }
 
 .image5 {
@@ -307,6 +325,8 @@ ul {
 	position: relative;
 	left: 250px;
 	bottom: 435px;
+	height: 205px;
+	width: 205px;
 }
 
 .hangman {
