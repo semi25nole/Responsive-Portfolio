@@ -493,14 +493,9 @@ ul {
 	outline: 0;
 }
 
-#index {
-@media screen (max-width: 980px, 768px, 640px);	
-}
 
-#portfolio {
-@media screen (max-width: 980px, 768px, 640px);	
-}
-
-#contact {
-@media screen (max-width: 980px, 768px, 640px);	
+@media screen (min-width: 640px) and (max-width: 980px) {
+	* {
+		background-size: contain;
+	}
 }
