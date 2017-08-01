@@ -489,12 +489,14 @@ ul li a:active {
   aside {
     max-width: 100%;
     margin-top: 20px;
+    margin-right: 33%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  section {
+  .main2 {
     padding: 1em, .5em, 1em, .5em;
+    margin-left: 0px;
   }
   nav ul {
     clear:both;
@@ -515,5 +517,14 @@ ul li a:active {
 @media screen and (max-width: 640px) {
   footer {
     position: static;
+  }
+  aside {
+  	margin-bottom: 40px;
+  	margin-top: 0px;
+  	margin-right: 115px;
+  }
+  .main, .toprow {
+  	width: 500px;
+  	margin-left: 0px;
   }
 }
