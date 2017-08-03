@@ -40,6 +40,22 @@ footer {
 
 }
 
+.main1 {
+	background-color: white;
+	padding: 20px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
+	width: 650px;
+	height: 450px;
+	border: 1.5px solid #dddddd;
+	margin-top: 3%;
+	margin-left: 8%;
+	margin-bottom: 3.49%;
+	position: relative;
+	float: left;
+
+}
+
 /*Portfolio Page Only*/
 
 .main2 {
@@ -482,49 +498,246 @@ ul li a:active {
 
 
 @media screen and (max-width: 980px) {
-  section {
-    max-width: 100%;
-    margin-top: 20px;
-  }
-  aside {
-    max-width: 100%;
-    margin-top: 20px;
-    margin-right: 33%;
-  }
+	.main {
+		width: 440px;
+		height: 680px;
+	}
+	.main1 {
+		width: 440px;
+		overflow: hidden;
+		height: 440px;
+		margin-top: 32px;
+	}
+	aside {
+		margin-right: 25px;
+	}
+	.toprow {
+		width: 440px;
+	}
+	#myphoto {
+		width: 450px;
+		height: 50%;
+		margin-top: 100px;
+	}
+	p, .p2 {
+		font-size: 12px;
+		line-height: 1.4
+	}
+	.contactbox1, .contactbox2, .contactbox3 {
+		width: 450px;
+	}
+	.main2 {
+		width: 300px;
+		height: 950px;
+		margin-left: 200px;
+	}
+	.image1, .image2, .image3, .image4, .image5 {
+		height: 150px;
+		width: 200px;
+		position: static;
+		margin-top: 15px;
+	}
+	.toprowp {
+		width: 260px;
+		position: relative;
+	}
+	.hangman  {
+	position: absolute;
+	top: 220px;
+	}
+	.rpg {
+		position: absolute;
+		top: 380px;
+		left: 25px;
+	}
+	.rutgers {
+		position: absolute;
+		top: 715px;
+		left: 17px;
+	}
+	.trivia {
+		position: absolute;
+		top: 530px;
+		left: 50px;
+	}
+	.rps {
+		position: absolute;
+		top: 880px;
+		left: 17px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  .main2 {
-    padding: 1em, .5em, 1em, .5em;
-    margin-left: 0px;
-  }
-  nav ul {
-    clear:both;
-    background-color: #1BA67E;
-    height: 60px;
-    width: 100%;
-  }
-  nav ul li {
-    height:60px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  nav ul li:hover {
-    background-color: black;
-  }
+	.main {
+		width: 630px;
+		overflow: hidden;
+		height: 530px;
+	}
+	.toprow {
+		width: 620px;
+	}
+	aside {
+		margin-right: 43px;
+		width: 670px;
+	}
+	.contactbox1, .contactbox2, .contactbox3 {
+		width: 480px;
+	}
+	.main1 {
+		width: 670px;
+		height: 500px;
+		margin-left: 30px;
+	}
+	#myphoto {
+		width: 250px;
+		height: 250px;
+	}
+	p, .p2 {
+		font-size: 14px;
+	}
+	.toprow2 {
+		width: 620px;
+		text-align: left;
+	}
+	.main2 {
+		width: 670px;
+		margin-left: 33px;
+		overflow: hidden;
+	}
+	.image1, .image2, .image3, .image4, .image5 {
+		height: 150px;
+		width: 200px;
+	}
+	.image1 {
+		position: relative;
+		top: 20px;
+	}
+	.hangman {
+		position: absolute;
+	}
+	.image2 {
+		position: absolute;
+		top: 130px;
+		left: 300px;
+	}
+	.rpg {
+		position: absolute;
+		left: 300px;
+		top: 220px;
+	}
+	.image3 {
+		position: absolute;
+		left: 25px;
+		top: 320px;
+	}
+	.trivia {
+		position: absolute;
+		top: 400px;
+	}
+	.image4 {
+		position: absolute;
+		top: 300px;
+		right: 165px;
+		left: 300px;
+	}
+	.rutgers {
+		position: absolute;
+		top: 400px;
+		left: 300px;
+	}
+	.image5 {
+		position: absolute;
+		top: 480px;
+		left: 25px;
+	}
+	.rps {
+		position: absolute;
+		top: 580px;
+		left: 22px;
+	}
+	.toprowp {
+		width: 580px;
+	}
+	.main {
+		width: 630px;
+		overflow: hidden;
+		margin-left: 28px;
+	}
+	.contactbox1, .contactbox2, .contactbox3 {
+		width: 580px;
 }
 
+
 @media screen and (max-width: 640px) {
-  footer {
-    position: static;
-  }
-  aside {
-  	margin-bottom: 40px;
-  	margin-top: 0px;
-  	margin-right: 115px;
-  }
-  .main, .toprow {
-  	width: 500px;
-  	margin-left: 0px;
-  }
+	.main1 {
+		width: 560px;
+		height: 700px;
+	}
+	.toprow {
+		width: 520px;
+	}
+	p, .p2 {
+		font-size: 12px;
+	}
+	#myphoto {
+		width: 100%;
+		height: 340px;
+	}
+	aside {
+		width: 560px;
+		margin-right: 25px;
+	}
+	.toprow2 {
+		width: 520px;
+	}
+	.main {
+		width: 523px;
+		height: 650px;
+		margin-left: 28px;
+	}
+	.contactbox1, .contactbox2, .contactbox3 {
+		width: 520px;
+	}
+	.name {
+		margin-left: 25px;
+	}
+	.main2 {
+		width: 560px;
+		margin-left: 31px;
+		height: 1400px;
+	}
+	.image1, .image2, .image3, .image4, .image5 {
+		height: 250px;
+		width: 95%;
+		position: static;
+	}
+	.hangman, .rpg, .rps, .rutgers, .trivia {
+		position: absolute;
+	}
+	.hangman {
+		width: 88%;
+		top: 300px;
+	}
+	.rpg {
+		width: 88%;
+		left: 20px;
+		top: 560px;
+	}
+	.trivia {
+		width: 88%;
+		top: 810px;
+		left: 18px;
+	}
+	.rutgers {
+		width: 88%;
+		top: 1100px;
+		left: 20px;
+	}
+	.rps {
+		width: 88%;
+		top: 1320px;
+	}
+	.name2 {
+		margin-left: 25px;
+	}
 }
